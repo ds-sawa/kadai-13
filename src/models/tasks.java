@@ -29,7 +29,6 @@ public class tasks {
     private Integer id;
 
 
-
     @Column(name = "content", length = 255, nullable = false)
     private String content;
 
@@ -55,6 +54,10 @@ public class tasks {
     public void setContent(String content) {
         this.content = content;
     }
+
+
+
+
 
     public Timestamp getCreated_at() {
         return created_at;
